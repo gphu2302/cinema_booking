@@ -1,5 +1,8 @@
 package com.dev.cinema_booking.core.exception;
 
+import lombok.Getter;
+
+@Getter
 public class BusinessException extends RuntimeException{
     private final ErrorCode errorCode;
 
